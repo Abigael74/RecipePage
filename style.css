@@ -1,0 +1,89 @@
+body
+{
+    background-color: hsl(330, 100%, 98%);
+    font-size: 1em;
+    font-family: "Manrope", sans-serif;
+}
+main
+{
+background-color:hsl(0, 0%, 100%) ;
+margin : auto;
+margin-top : 15%;
+margin-bottom: 10% ;
+margin-left: 20%;
+margin-right: 20%;
+padding : 50px;
+}
+
+.recipe-photo
+{
+    margin : auto;
+    width: 100%;
+    
+}
+img
+{
+    width: 100%;
+    height: 100%;
+    object-fit : cover;
+}
+
+.time-bloc
+{
+    background-color: hsl(329, 69%, 91%);
+    padding : 15px;
+}
+h1
+{
+    font-family: "Young Serif", sans-serif;
+    font-size: 3.5em;
+}
+h3
+{
+    color:  hsl(332, 51%, 32%);
+    font-family: "Young Serif", sans-serif;
+}
+
+h2
+{
+    
+font-size: 2em;
+color : hsl(14, 45%, 36%);
+font-family: "Young Serif", sans-serif;
+}
+li
+{margin-bottom: 10px;}
+em
+{font-weight : bold;
+    font-style: normal;}
+table
+{
+    width:80%;
+    margin-bottom: 80px;
+}
+td
+{
+    border-bottom: 1.5px solid hsl(30, 18%, 87%);
+    padding-bottom : 25 px;
+    padding-left: 30px;
+}
+td em
+{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.2em;
+}
+@media screen and (max-width:995px)
+{
+    main 
+    {
+        padding : 0; 
+    }
+    .intro-bloc, .ingredients-bloc, .instruction-bloc, .nutrition-bloc
+    {padding:15px;}
+    h1
+    {font-size: 2em;}
+    h2
+    {font-size: 1.5em;}
+    h3
+    {font-size: 1.1em;}
+}
